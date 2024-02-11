@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>To Do List - Desafío 5 IntroJS</title>
+</head>
+<body>
+
+<section class="container">
+    <h2>To Do List</h2>
+    <hr>
+    <div class="ingressTask">
+        <p>Nueva Tarea</p>
+        <div class="inputButton">
+            <input type="text" placeholder="Ingrese tarea o actividad" class="taskInput" id="input">
+            <button class="addTask">Agregar</button>
+        </div>
+    </div>
+    <div class="tableTask">
+        <div class="countTask">
+            <ul class="taskTotal"></ul>
+            <ul class="taskDone"></ul>
+        </div>
+        <div class="taskList">
+            <table width="100%">
+                <col style="width:10%">
+                <col style="width:70%">
+                <col style="width:10%">
+                <col style="width:10%">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Tarea</th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody class="tableList">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
